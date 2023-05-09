@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alien Invasion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="container-master">
+        <div class="top-bar">
+            <div class="score-container">
+                <p class="name-score">SCORE: </p>
+                <p class="score-value">0</p>
+            </div>
+            <div></div>
+            <div class="container-life">
+                <p class="name-life">Life:</p>
+                <p class="life-value">3</p>
+            </div>
+        </div>
+        <button class="play">PLAY</button>
+        <canvas></canvas>
+        <div class="botton-bar">
+            <img class="volume-img" src="img/volume-up.svg" alt="">
+            <button class="button-restart">RESTART</button>
+        </div>
+    </main>
+    <audio class="main-music" src="fx/main-music.mp3"></audio>
+    <audio class="short-fx" src="fx/short.wav"></audio>
+    <audio class="lose-fx" src="fx/lose.wav"></audio>
+    <script src="js/class.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
